@@ -1,0 +1,10 @@
+services:
+  openwebui:
+    build: .
+    container_name: openwebui
+    ports:
+      - "8084:8084"   # frontend
+      - "7042:7042"   # backend
+    volumes:
+      - ./data:/app/data   # optional if your app stores data
+    restart: unless-stopped

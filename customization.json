@@ -1,0 +1,20 @@
+{
+	"appName": "Private AI",
+	"logo": "",
+	"favicon": {
+		"comment": "Currently default is in use",
+		"default": "https://openwebui.com/favicon.png"
+	},
+
+	"frontend": {
+		"file_location": "open-webui folder: /src/lib/constants.ts",
+		"port": "8084",
+		"url": "https://app.useprivate.ai"
+	},
+
+	"backend": {
+		"file_location": "open-webui folder: /backend/open-webui/env.py",
+		"port": "7042",
+		"url": "https://backend.useprivate.ai"
+	}
+}
