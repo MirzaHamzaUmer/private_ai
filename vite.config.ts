@@ -46,10 +46,10 @@ export default defineConfig({
 		pure: ['console.log', 'console.debug']
 	},
 	server: {
-		allowedHosts: ['app.useprivate.ai']
+		allowedHosts: ['private-ai-openwebui']
 	},
 	preview: {
-		allowedHosts: ['app.useprivate.ai'],
+		allowedHosts: ['private-ai-openwebui'],
 		port: previewPort,
 	}
 });
