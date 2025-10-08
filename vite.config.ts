@@ -46,10 +46,10 @@ export default defineConfig({
 		pure: ['console.log', 'console.debug']
 	},
 	server: {
-		allowedHosts: ['private-ai-openwebui']
+		allowedHosts: ['private-ai-openwebui-u8qkei-a12bef-84-46-249-67.traefik.me']
 	},
 	preview: {
-		allowedHosts: ['private-ai-openwebui'],
+		allowedHosts: ['private-ai-openwebui-u8qkei-a12bef-84-46-249-67.traefik.me'],
 		port: previewPort,
 	}
 });

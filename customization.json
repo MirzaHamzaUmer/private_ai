@@ -9,12 +9,12 @@
 	"frontend": {
 		"file_location": "open-webui folder: /src/lib/constants.ts",
 		"port": "8084",
-		"url": "http://private-ai-openwebui/"
+		"url": "http://private-ai-openwebui-u8qkei-a12bef-84-46-249-67.traefik.me/"
 	},
 
 	"backend": {
 		"file_location": "open-webui folder: /backend/open-webui/env.py",
 		"port": "7042",
-		"url": "http://private-ai-openwebui/"
+		"url": "http://private-ai-openwebui-u8qkei-a12bef-84-46-249-67.traefik.me/"
 	}
 }
